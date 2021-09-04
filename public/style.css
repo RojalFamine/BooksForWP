@@ -11,8 +11,9 @@ main {
 }
 
 .card {
-  padding: 5px;
+  padding: 10px;
   background: rgb(230, 230, 230);
+  border-radius: 5px;
   margin-bottom: 15px;
   -webkit-box-shadow: 1px 2px 15px -4px #000000;
   box-shadow: 1px 2px 15px -4px #000000;
@@ -21,4 +22,16 @@ main {
 .content {
   display: flex;
   align-items: start;
+}
+
+body {
+  background: #9cb9ca;
+}
+#book_submit {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  height: 300px;
+  justify-content: space-evenly;
 }
